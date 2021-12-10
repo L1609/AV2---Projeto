@@ -1,0 +1,46 @@
+div {
+    display: inline-block;
+}
+.Promoção4 { 
+    width: 280px ; 
+    height:170px ;
+
+ } 
+ body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-width: 100vh;
+ }
+
+ #slider{
+
+    width: 800px;
+    max-width: 800px;
+    height: 25vw;
+    max-height: 150px;
+  
+    position: relative;
+  
+    margin-left: 15rem;
+    border: none;
+  }
+  #slider img{
+    opacity: 0;
+  
+      position: absolute;
+  
+      width: 790px;
+      height: 140px;
+  
+      object-fit: cover;
+  
+      transition: opacity 800ms;
+  
+      padding-bottom: 8px;
+  }
+  #slider img.selected{
+    opacity: 1;
+  }
